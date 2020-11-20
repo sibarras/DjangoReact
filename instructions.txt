@@ -1,0 +1,3 @@
+in cmd
+pip install django djangorestframework
+django-admin startproject controlador_de_musica
