@@ -19,7 +19,7 @@ def generate_unique_code():
 # Control de la musica
 class Room(models.Model):
     # Identificador del cuarto (seran caracteres)
-    code = models.CharField(max_length=8, default="", unique=True)
+    code = models.CharField(max_length=8, default=generate_unique_code, unique=True)
     # Quien es el dueno del cuarto
     host = models.CharField(max_length=50, unique=True)
     # Indicar si los usuarios puede pausar la musica del cuarto

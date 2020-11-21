@@ -8,6 +8,7 @@ import {
   Link,
   Redirect,
 } from "react-router-dom";
+import App from "./App";
 
 export default class HomePage extends Component {
   constructor(props) {
