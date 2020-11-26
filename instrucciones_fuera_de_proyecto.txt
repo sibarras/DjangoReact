@@ -14,4 +14,6 @@ npm install @material-ui/core
 npm install @babel/plugin-proposal-class-properties
 npm install react-router-dom
 npm install @material-ui/icons
-me quede en 8:50 video 3
+
+
+me quede en 20:25 video 6
